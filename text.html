@@ -7,62 +7,41 @@
 </head>
 <body>
     <div class="box">
-        <p class="new">new</p>
-        <p class="Mac">MacBook Pro</p>
-        <p class="infos">Supercharged for pros.</p>
-        <p class="price">From $1999</p>
-        <button class="buy">Buy</button>
+        <p class="first">1,049.61 <span class="USD">USD</span></p>
+        <p class="second">+18.05 (1.75%) today</p>
+        <p class="third">After hours 1,048.00 <span class="lose">-1.61 (0.15%)</span></p>
     </div>
 </body>
 </html>
-
 <style>
-    .box
+    .first
     {
-        text-align: center;
-    }
-    .new
-    {
-        margin: 0;
-        color: orange;
-        font-size: 10px;
-        margin-bottom:0;
-    }
-    .Mac
-    {
-        font-size: small;
-        font-family: Arial;
-        margin-top: 7px;
-        font-weight: bold;
-        margin-bottom:0;
-    }
-    .infos
-    {
-        color:black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 500;
         font-size: larger;
-        font-family: Arial;
-        margin-top: 7px;
-        font-weight: bold;
+        margin-top: 0;
         margin-bottom: 0;
     }
-    .price
+    .USD
     {
-        margin-top: 10px;
-        font-size: 10px;
-        line-height: 5px;
+        font-size:small;
+        color: gray;
+    }
+    .second
+    {
+        margin-top:5px;
+        color: #00A300;
         margin-bottom: 0;
     }
-    .buy
+    .third
     {
-        margin-top: 10px;
-        border: none;
-        background-color: rgb(19, 19, 231);
-        width: 40px;
-        border-radius: 7px;
-        color:white;
-        font-size: 10px;
-        padding-top:2px;
-        padding-bottom:2px;
-        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: gray;
+        font-weight: 520;
+        margin-top: 5px;
+    }
+    .lose
+    {
+        color: red;
     }
 </style>
