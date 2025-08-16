@@ -1,0 +1,54 @@
+.link
+{
+    font-size: large;
+    margin-right: 10px;
+}
+
+.but
+{
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.stretch_button
+{
+    border: none;
+    background-color: green;
+    height: 35px;
+    width: 60px;
+    color:white;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.stretch_button:hover
+{
+    height: 45px;
+    width: 90px;
+    transition: 0.5s;
+}
+
+.last
+{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s, margin 0.15s;
+}
+
+.last:hover
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 0.15s;
+}
