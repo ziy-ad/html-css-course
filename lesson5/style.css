@@ -1,0 +1,58 @@
+p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header
+{
+    font-family: Georgia;
+    font-weight: bold;
+    width: 260px;
+    line-height: 23px;
+    font-size: large;
+}
+
+.video_stats
+{
+    margin-top: 3px;
+    color: gray;
+    font-size: 15px;
+}
+
+.youtuber
+{
+    margin-top: 9px;
+    color: rgb(82, 82, 82);
+}
+
+.description
+{
+    color:  rgb(82, 82, 82);
+    margin-top: 9px;
+    width: 280px;
+    line-height: 22px;
+}
+
+.announce
+{
+    margin-top: 100px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: rgb(232, 64, 64);
+    color: white;
+    text-align:center;
+}
+
+.shop_now:hover
+{
+    text-decoration: underline;
+    cursor : pointer;
+}
+
+.shop
+{
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
