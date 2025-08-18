@@ -1,54 +1,32 @@
-.link
+input
 {
-    font-size: large;
-    margin-right: 10px;
-}
-
-.but
-{
-    width: 50px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.stretch_button
-{
+    display: block;
+    background-color: rgb(235, 235, 235);
     border: none;
-    background-color: green;
-    height: 35px;
-    width: 60px;
-    color:white;
-    font-weight: bold;
-    transition: 0.5s;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 100px;
 }
 
-.stretch_button:hover
+button
 {
-    height: 45px;
-    width: 90px;
-    transition: 0.5s;
+    margin-top: 10px;
+    border: none;
+    height: 50px;
+    width: 170px;
+    margin-right: 10px;
+    font-size: 17px;
 }
 
-.last
+.first
 {
-    background-color: green;
+    background-color: black;
     color: white;
-    border: none;
-    font-size: 18px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    cursor: pointer;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: padding 0.15s, margin 0.15s;
 }
 
-.last:hover
+.second
 {
-    padding-left: 25px;
-    padding-right: 25px;
-    transition: 0.15s;
+    padding-left: 20px;
+    padding-right: 20px;
 }
