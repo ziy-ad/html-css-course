@@ -8,3 +8,20 @@
 {
     width :300px;
 }
+
+.Search
+{
+    display: block;
+}
+
+.video-container
+{
+    width: 300px;
+    display: inline-block;
+}
+
+.video-row
+{
+    display: flex;
+    gap : 10px;
+}
